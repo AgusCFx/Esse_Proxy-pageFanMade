@@ -1,7 +1,21 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'OxaMed' :['OxaniumMedium','sans-serif'],
+        'OxaReg' :['OxaniumRegular','sans-serif'],
+      },
+      keyframes:{
+        rain:{
+          '0%':{'background-position' : '0% 0%'},
+          '100%':{'background-position' : '0% 1000%'},
+        }
+      }
+    },
+    animation:{
+      'rain':'rain 5s linear infinite',
+    },
     colors: {
       'black': '#000000',
       'whiteInactive': '#988F96',
@@ -12,7 +26,7 @@ module.exports = {
       'purpleActive': '#3F2A50',
       'orangeActive':'#C2602F',
       'error': '#DE0D10'
-    }
+    },
 
   },
   plugins: [],

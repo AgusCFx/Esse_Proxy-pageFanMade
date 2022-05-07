@@ -1,5 +1,10 @@
 # WIP
 
+Pagina NO OFICIAL sobre Esse_Proxy simulando ser sitio principal.
+
+## Pendientes
+ - 
+
 ## Diseño
 
  - [Figma](https://www.figma.com/file/Itetmk1dRUwEfS0ofwgJfq/Esse_Proxy)
