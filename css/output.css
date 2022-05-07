@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -502,11 +502,135 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.fullCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.-z-20 {
+  z-index: -20;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.max-w-screen-2xl {
-  max-width: 1536px;
+.h-full {
+  height: 100%;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 0% 1000%;
+  }
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 0% 1000%;
+  }
+}
+
+.animate-rain {
+  -webkit-animation: rain 5s linear infinite;
+          animation: rain 5s linear infinite;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-error {
+  --tw-bg-opacity: 1;
+  background-color: rgb(222 13 16 / var(--tw-bg-opacity));
+}
+
+.bg-whiteactive {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 214 220 / var(--tw-bg-opacity));
+}
+
+.font-OxaMed {
+  font-family: OxaniumMedium, sans-serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-whiteactive {
+  --tw-text-opacity: 1;
+  color: rgb(216 214 220 / var(--tw-text-opacity));
+}
+
+.rain{
+  background-image: url(https://i.postimg.cc/XvR6CjbY/rain.png);
+}
+
+/* botones */
+
+.btn1{
+  -webkit-clip-path: polygon(0 0, calc(100% - 75px) 0, 100% 100%, 25px 100%, 0 calc(100% - 25px));
+          clip-path: polygon(0 0, calc(100% - 75px) 0, 100% 100%, 25px 100%, 0 calc(100% - 25px))
+}
+
+@font-face {
+  font-family: "OxaniumMedium";
+
+  src: url("../assets/font/Oxanium-Medium.ttf");
+}
+
+@font-face {
+  font-family: "OxaniumRegular";
+
+  src: url("../assets/font/Oxanium-Regular.ttf");
 }
