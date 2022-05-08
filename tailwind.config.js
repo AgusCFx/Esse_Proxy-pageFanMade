@@ -2,6 +2,9 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
+      cursor:{
+        'crosshairEsse':'url(../assets/img/cursor/Crosshair_Gray.cur), pointer ',
+      },
       fontFamily:{
         'OxaMed' :['OxaniumMedium','sans-serif'],
         'OxaReg' :['OxaniumRegular','sans-serif'],

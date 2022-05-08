@@ -508,7 +508,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
-.btn1 {
+.btn {
   display: flex;
   align-items: center;
   position: relative;
@@ -537,8 +537,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 2rem;
 }
 
+.-left-1 {
+  left: -0.25rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .-z-20 {
   z-index: -20;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.m-12 {
+  margin: 3rem;
 }
 
 .mx-auto {
@@ -546,12 +562,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-\[5000px\] {
@@ -562,12 +600,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-2\/5 {
   width: 40%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-5\/12 {
+  width: 41.666667%;
+}
+
+.-rotate-90 {
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @-webkit-keyframes rain {
@@ -595,6 +654,10 @@ Ensure the default browser behavior of the `hidden` attribute.
           animation: rain 5s linear infinite;
 }
 
+.cursor-crosshairEsse {
+  cursor: url(../assets/img/cursor/Crosshair_Gray.cur), pointer ;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -603,8 +666,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .bg-black {
@@ -615,6 +686,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-whiteActive {
   --tw-bg-opacity: 1;
   background-color: rgb(216 214 220 / var(--tw-bg-opacity));
+}
+
+.bg-greenInactive {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 138 12 / var(--tw-bg-opacity));
+}
+
+.bg-whiteInactive {
+  --tw-bg-opacity: 1;
+  background-color: rgb(152 143 150 / var(--tw-bg-opacity));
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.pl-14 {
+  padding-left: 3.5rem;
 }
 
 .font-OxaMed {
@@ -640,6 +729,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.leading-\[60px\] {
+  line-height: 60px;
+}
+
 .text-whiteActive {
   --tw-text-opacity: 1;
   color: rgb(216 214 220 / var(--tw-text-opacity));
@@ -656,6 +749,11 @@ Ensure the default browser behavior of the `hidden` attribute.
           clip-path: polygon(0 0, calc(100% - 75px) 0, 100% 100%, 25px 100%, 0 calc(100% - 25px))
 }
 
+.btn2{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%);
+}
+
 @font-face {
   font-family: "OxaniumMedium";
 
@@ -666,4 +764,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: "OxaniumRegular";
 
   src: url("../assets/font/Oxanium-Regular.ttf");
+}
+
+.hover\:bg-greenActive:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(72 221 0 / var(--tw-bg-opacity));
 }

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
     font-family: "OxaniumMedium";
     src: url("../assets/font/Oxanium-Medium.ttf");
@@ -10,8 +12,6 @@
     font-family: "OxaniumRegular";
     src: url("../assets/font/Oxanium-Regular.ttf");
 }
-
-
 @layer components{
     .fullCenter{
         @apply flex justify-center items-center;
@@ -19,7 +19,7 @@
     .centerTransversal{
         @apply flex items-center
     }
-    .btn1{
+    .btn{
         @apply relative w-[400px] centerTransversal pl-6 h-16;
     }
 }
@@ -31,6 +31,9 @@
     /* botones */
     .btn1{
         clip-path: polygon(0 0, calc(100% - 75px) 0, 100% 100%, 25px 100%, 0 calc(100% - 25px))
+    }
+    .btn2{
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%);
     }
 
 }
