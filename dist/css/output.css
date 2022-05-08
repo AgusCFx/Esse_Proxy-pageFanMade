@@ -525,6 +525,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .bottom-1 {
   bottom: 0.25rem;
 }
@@ -550,12 +554,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[5000px\] {
   height: 5000px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -593,6 +597,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .justify-around {
