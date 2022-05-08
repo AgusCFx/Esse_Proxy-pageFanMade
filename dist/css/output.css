@@ -508,8 +508,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
+.btn1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 4rem;
+  width: 400px;
+  padding-left: 1.5rem;
+}
+
 .fixed {
   position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.right-8 {
+  right: 2rem;
 }
 
 .-z-20 {
@@ -521,12 +542,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .h-full {
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
+.h-\[5000px\] {
+  height: 5000px;
 }
 
 .w-full {
@@ -535,14 +564,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-2\/5 {
   width: 40%;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 @-webkit-keyframes rain {
@@ -583,12 +604,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-error {
-  --tw-bg-opacity: 1;
-  background-color: rgb(222 13 16 / var(--tw-bg-opacity));
-}
-
-.bg-whiteactive {
+.bg-whiteActive {
   --tw-bg-opacity: 1;
   background-color: rgb(216 214 220 / var(--tw-bg-opacity));
 }
@@ -597,17 +613,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: OxaniumMedium, sans-serif;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-whiteactive {
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-whiteActive {
   --tw-text-opacity: 1;
   color: rgb(216 214 220 / var(--tw-text-opacity));
 }
