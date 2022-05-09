@@ -25,7 +25,6 @@
     .text-subtitle{
         @apply text-base sm:text-lg font-OxaReg
     }
-
     .btn{
         @apply relative w-[400px] centerTransversal pl-6 h-16;
     }
@@ -34,7 +33,6 @@
     .rain{
         background-image: url(https://i.postimg.cc/XvR6CjbY/rain.png);
     }
-
     /* botones */
     .btn1{
         clip-path: polygon(0 0,  calc(100% - 75px) 0, 100% 100%, 25px 100%, 0 calc(100% - 25px))
