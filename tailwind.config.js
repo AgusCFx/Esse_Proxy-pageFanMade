@@ -28,7 +28,11 @@ module.exports = {
       'purpleInactive': '#290831',
       'purpleActive': '#3F2A50',
       'orangeActive':'#C2602F',
-      'error': '#DE0D10'
+      'error': '#DE0D10',
+      'discord': '#3B49E2',
+      'youtube': '#F20000',
+      'steam': '#000000',
+      'twitter':'#1C93E4'
     },
 
   },

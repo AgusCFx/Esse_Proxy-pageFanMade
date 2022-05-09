@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="cursor-crosshairEsse">
+<html lang="en" class="cursor-crosshairEsse">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,61 +8,67 @@
     <link rel="stylesheet" href="css/output.css">
     <title>_Esse Proxy</title>
 </head>
-<body class="h-[5000px] bg-black font-OxaMed">
+<body class="bg-black font-OxaMed">
+    <!-- background -->
     <div class="w-full h-full fixed -z-20 rain animate-rain"></div>
     <div class="container mx-auto">
-
-        <header class="w-full mb-32 fullCenter text-whiteactive">
+        <!-- header portada -->
+        <header class="w-full mb-12 lg:mb-32 fullCenter text-whiteactive">
             <img src="assets/img/Portada.jpg" alt="">
         </header>
+        <!-- what is -->
         <section id="whatIs" class="fullCenter flex-col">
-            <div class="fullCenter flex-row justify-around mb-32">
-                <div class="w-2/5">
+            <div class="fullCenter flex-col lg:flex-row justify-around mb-12 lg:mb-32">
+                <div class="w-4/5 lg:w-2/5 mb-10 lg:mb-0">
                     <video src="assets/video/gameplayShort.mp4" autoplay loop muted></video>
                 </div>
-                <div class="w-2/5">
-                    <div class="btn btn2 text-3xl bg-whiteActive mb-5">Hight intensity action <span class="absolute text-xs bottom-1 right-8 font-bold">_HIA</span>
-                    </div>
-                    <p class="text-whiteActive text-base">
+                <div class="w-4/5 mx-10 lg:w-2/5">
+                    <h1 class="w-full btn btn2 text-title bg-whiteActive mb-5">Hight intensity action <span class="absolute text-xs bottom-1 right-8 font-bold">_HIA</span>
+                    </h1>
+                    <h2 class="text-whiteActive text-subtitle">
                         _A Slick, Stylish and Brutal, Top-Down Twin-Stick Shooter. Kill or die, Learn and Repeat before you unveil the secrets of Esse Proxy in this Action-Packed Story on a Dystopian Cyberpunk City.
-                    </p>
+                    </h2>
                 </div>
             </div>
-            <div class="w-full h-[400px] relative mb-32">
-                <img class="absolute -z-10" src="assets/img/bannerDemo.png" alt="">
-                <div class="h-full w-2/5 pl-14 flex flex-col justify-evenly">
+            <div class="w-full min-h-[500px] relative mb-12 lg:mb-32">
+                <img class="absolute object-cover object-[25%_50%] -z-10 h-full" src="assets/img/bannerDemo.png" alt="">
+                <div class="h-[500px] w-4/5 lg:w-2/5 pl-14 flex flex-col justify-evenly">
 
-                    <div class="btn btn2 text-3xl bg-whiteActive">Demo Available NOW!!<span class="absolute text-xs bottom-1 right-8 font-bold">_DAN!</span></div>
-                    <p class="text-whiteActive text-base">
+                    <h1 class="w-full btn btn2 text-title bg-whiteActive mb-5">Demo Available NOW!!<span class="absolute text-xs bottom-1 right-8 font-bold">_DAN!</span></h1>
+                    <h2 class="text-whiteActive text-base">
                         _Everyday we are close to the release date we aimed from a year ago and the game has changed a lot. We feel confident that everyone of you will love the new version of the game.
-                    </p>
-                    <a href="https://store.steampowered.com/app/1485070/Esse_Proxy/" class="btn btn1 text-3xl bg-greenInactive hover:bg-greenActive mb-5">Go to Steam <span class="absolute text-xs -rotate-90 -left-1 top-4 font-bold">_GTS</span></a>
+                    </h2>
+                    <a href="https://store.steampowered.com/app/1485070/Esse_Proxy/" class="w-full btn btn1 text-title bg-greenInactive hover:bg-greenActive mb-5">Go to Steam <span class="absolute text-xs -rotate-90 -left-1 top-4 font-bold">_GTS</span></a>
                 </div>
             </div>
         </section>
-        <img class="mb-32" src="assets/img/divider/Divider.png" alt="Divider">
+
+        <img class="mb-12 lg:mb-32" src="assets/img/divider/Divider.png" alt="Divider">
+        <!-- how is -->
         <section id="howIs">
-            <div class="h-[650px] w-full relative mb-32">
-                <img class="absolute -z-10" src="assets/img/little-soul.png" alt="">
+            <div class="max-h-[800px] w-full relative mb-12 lg:mb-32">
+                <img class="absolute -z-10 h-full sm:h-full object-cover" src="assets/img/little-soul.png" alt="">
                 <div class="flex justify-end">
-                    <p class="w-1/2 p-3 m-12 bg-whiteInactive">
+                    <h2 class="w-full h-full sm:w-1/2 p-3 m-12 bg-whiteInactive">
                         _You're a little soul, carrying a corpse, not entitled to be just an illusion. Allow me to introduce yourself, no more than just some entropy. I'm still here, keep looking, will you?.
-                    </p>               
+                    </h2>               
                 </div>
             </div>
-            <div class="fullCenter flex-row justify-around mb-32">
-                <video class="w-2/5" src="assets/video/hotline.mp4" autoplay loop muted></video>
-                <p class="w-2/5 leading-[60px] text-whiteActive">_Brutal High-Octane Violence <br>
+            <div class="fullCenter flex-col lg:flex-row justify-around mb-12 lg:mb-32">
+                <video class="w-4/5 lg:w-2/5 mb-12" src="assets/video/hotline.mp4" autoplay loop muted></video>
+                <h3 class="w-4/5 lg:w-2/5 leading-10 lg:leading-[60px] text-whiteActive">_Brutal High-Octane Violence <br>
                     _Skill Based <br>
                     _Story Rich <br>
                     _Specs <br>
-                </p>
+                </h3>
             </div>
         </section>
-        <img class="mb-32" src="assets/img/divider/Divider.png" alt="Divider">
+
+        <img class="mb-12 lg:mb-32" src="assets/img/divider/Divider.png" alt="Divider">
+        <!-- awards -->
         <section id="awards">
-            <div class="ml-32 mb-32 btn btn2 text-3xl bg-whiteActive">Awards <span class="absolute text-xs bottom-1 right-8 font-bold">_A</span></div>
-            <div class="fullCenter mb-32">
+            <h1 class="ml-32 mb-12 lg:mb-32 btn btn2 text-3xl bg-whiteActive">Awards <span class="absolute text-xs bottom-1 right-8 font-bold">_A</span></h1>
+            <div class="fullCenter mb-12 lg:mb-32">
                 <a class="mx-4" href="#">
                     <img  src="assets/img/award/Award_EPIC.png" alt="">
                 </a>
@@ -73,25 +79,54 @@
                     <img  src="assets/img/award/AwardTinyTeams.png" alt="">
                 </a>
             </div>
-            <div class="mb-32">
-                <div>
-                    <img class="" src="assets/img/award/CBR.com_logo.svg" alt="">
-                    <div class="h-full w-5/12 flex flex-col justify-around">
-                        <p class="text-whiteActive">_“Esse Proxy blends style with substance to create a Hotline Miami-inspired top-down shooter set in a brutal and unforgiving cyberpunk dystopia”</p>
-                        <a class="btn btn3">
+            <div class="mb-12 lg:mb-32">
+                <div class="fullCenter justify-around mb-12 lg:mb-32">
+                    <img class="w-[256px]" src="assets/img/award/CBR.com_logo.svg" alt="">
+                    <div class="h-full w-5/12">
+                        <h2 class="mb-10 text-whiteActive">_“Esse Proxy blends style with substance to create a Hotline Miami-inspired top-down shooter set in a brutal and unforgiving cyberpunk dystopia”</h2>
+                        <a href="https://www.cbr.com/esse-proxy-hotline-miami-cyberpunk/" class="btn btn3 float-right bg-whiteInactive hover:bg-whiteActive">
                             Comic Book Resources
                         </a>
                     </div>
                 </div>
-                <div></div>
-                <div></div>
+                <div class="fullCenter justify-around mb-12 lg:mb-32">
+                    <img class="w-[256px]" src="assets/img/award/Kotaku_logo.svg" alt="">
+                    <div class="h-full w-5/12">
+                        <p class="mb-10 text-whiteActive">_“Outrageously slick, somewhere between Alien Breed and Hotline Miami, and splendidly gory.”</p>
+                        <a href="https://kotaku.com/35-indie-games-that-really-want-your-attention-1847129742" class="btn btn3 float-right bg-whiteInactive hover:bg-whiteActive">
+                            Kotaku
+                        </a>
+                    </div>
+                </div>
+                <div class="fullCenter justify-around mb-12 lg:mb-32">
+                    <img class="w-[256px]" src="assets/img/award/ABG_logo.jpg" alt="">
+                    <div class="h-full w-5/12">
+                        <p class="mb-10 text-whiteActive">_“Very intense experience that always keeps you on your toes. Highly recommended.”
+                        </p>
+                        <a href="https://www.alphabetagamer.com/esse-proxy-alpha-demo/" class="btn btn3 float-right bg-whiteInactive hover:bg-whiteActive">
+                            Alpha Beta Gamer
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="networks">
-            
+
+        <img src="assets/img/divider/Skull.png" alt="">
+        <!-- networks -->
+        <section id="networks" class="w-full mb-12 lg:mb-32 flex flex-wrap">
+            <a href="https://discord.gg/yNchrt4gpE" class="w-1/2 h-32 btn1 bg-discord opacity-80 hover:opacity-100 fullCenter">
+                <img class="w-20 h-20" src="assets/img/networks/discord.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCEtkEBBZYWCkfzn7T0Nl9hw" class="w-1/2 h-32 btn1 bg-youtube opacity-80 hover:opacity-100 fullCenter">
+                <img class="w-20 h-20" src="assets/img/networks/youtube.svg" alt=""></a>
+            <a href="https://store.steampowered.com/app/1485070/Esse_Proxy" class="w-1/2 h-32 btn1 bg-steam opacity-80 hover:opacity-100 fullCenter">
+                <img class="w-20 h-20" src="assets/img/networks/steam.svg" alt=""></a>
+            <a href="https://twitter.com/FromSouthGames" class="w-1/2 h-32 btn1 bg-twitter opacity-80 hover:opacity-100 fullCenter">
+                <img class="w-20 h-20" src="assets/img/networks/twitter.svg" alt=""></a>
         </section>
-        <footer>
-            
+
+        <footer class="w-2/3 mb-20 mx-auto text-whiteActive text-center">
+            <p>_Fan page sobre Esse Proxy hecho por Agustin Fernandez.</p><br>
+            <p>_Sitio no oficial, desarrollado en caracter personal con contenidos obtenidos desde distintas webs. Por favor sirvase visitar la WEB OFICIAL o las redes oficiales mostradas en la seccion anterior.</p>
         </footer>
     </div>
 </body>
